@@ -1,0 +1,27 @@
+== Cele dydaktyczne ==
+
+Studenci powinni:
+- poznać podstawowe zasady programowania funkcyjnego w C++;
+- poznać i przećwiczyć elementy języka C++, pozwalające na realizację
+  paradygmatu programowania funkcyjnego: funkcje lambda, wskaźniki do funkcji,
+  nagłówek <functional>;
+- ugruntować umiejętności programowania w C++ poznane przy rozwiązywaniu
+  poprzednich zadań.
+
+== Ocena z testów automatycznych: 0 - 6 pkt. ==
+
+Po jednym punkcie za przejście wszystkich testów z grup od 1xx do 6xx.
+
+== Ocena za jakość kodu: 0 - 4 pkt. ==
+
+Zaczynamy od 4 punktów i odejmujemy po jednym za każdą usterkę:
+* niezgodność zawartości repozytorium ze specyfikacją zadania
+* ostrzeżenia wypisywane przez kompilator
+* braki const (mogą być sprawdzane w testach automatycznych)
+* brak lub błędny „header guard”
+* nieodpowiedni styl, brak lub ubogie komentarze, powtórzenia kodu
+* definiowanie funkcji w pliku nagłówkowym prowadzące do błędu linkowania
+  (to zapewne będzie sprawdzane w testach automatycznych)
+* wszelkie inne usterki, które były wytykane w poprzednich zadaniach
+Ponadto odejmujemy do dwóch punktów za rozwiązanie niefunkcyjne.
+Ocena nie może być jednak ujemna.
